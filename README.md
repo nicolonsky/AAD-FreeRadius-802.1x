@@ -47,7 +47,7 @@ A self signed certificate can be requested and issued with: `openssl req -x509 -
 
 ## Add RADIUS clients
 
-* Add your radius clients to: `/raddb/clients.conf`
+* Add your radius clients to: `raddb/clients.conf`
 
 ## Update OCSP responder URL
 
@@ -69,4 +69,4 @@ A self signed certificate can be requested and issued with: `openssl req -x509 -
 # Operational tasks
 
 * Connect into container: `docker exec -it aad-freeradius-8021x-radius-1 bin/bash`
-* View Radius logs: `tail /opt/var/log/radius/radius.log`
+* View Radius logs: `tail opt/var/log/radius/radius.log`
